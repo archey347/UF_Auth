@@ -1,0 +1,24 @@
+{
+    "name": "archey347/UF_Auth",
+    "type": "userfrosting-sprinkle",
+    "description": "Additional authentication options for UserFrosting",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "Archey Barrell",
+            "homepage": "https://github.com/archey347"
+        },
+        {
+            "name": "Amos Folz",
+            "homepage": "https://github.com/amosfolz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "UserFrosting\\Sprinkle\\Auth\\": "src/"
+        }
+    },
+    "requires": {
+        "hybridauth/hybridauth": "~v3.0"
+    }
+}
